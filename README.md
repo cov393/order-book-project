@@ -16,7 +16,7 @@
 | **Presentation Topic** |	**Tools and Concepts** |	**Reasons for Use** |	**How They Were Used** |
 |--------|----------|--------|---------|
 | **1. Pipeline and Deployment** |	Jenkins, Docker |	Automate CI/CD, speed improvements |	**Jenkins** used for continuous integration and deployment, **Docker** for containerizing applications |
-| **2. Automation** |	Kubernetes |	Streamline deployment and management |	**Kubernetes** used for container orchestration and automated scaling of services |
+| **2. Automation** |	Kubernetes, Jenkins |	Streamline deployment and management |	**Kubernetes** used for container orchestration and automated scaling of services, **Jenkins** can be configured to automatically run test scripts and parse the results. |
 | **3. Monitoring** |	Grafana, Prometheus |	Visualize and alert on system metrics |	**Grafana** used to create dashboards for monitoring, **Prometheus** for time-series data collection |
 | **4. Documentation** |	GitHub |	Centralized documentation repository |	**GitHub** used to store and organize documentation |
 | **5. Incident Management** |	Jira, Postmortem process |	Track incidents and postmortems |	**Jira** used for issue tracking and incident management, **postmortem process** defined for handling incidents  |
